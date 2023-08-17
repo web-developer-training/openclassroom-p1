@@ -1,0 +1,287 @@
+@media all and (min-width:1440px){
+    .hebergement{
+        flex-wrap: wrap-reverse;
+    }
+}
+@media all and (max-width: 1024px)
+{
+    .head .localisation .barre-boutton
+     .hebergement .activité{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: auto;
+    } 
+
+    .text-gras{
+        font-size: 40px;
+    }
+span{
+    font-family: 'Raleway', sans-serif;
+    font-size: 33px;
+    
+}
+h4{
+    font-size: 40px;
+}
+p{
+    font-size: 35px;
+}
+.filtre{
+    display: flex;
+    align-self: center;
+}  
+/*1ere partie head*/
+
+.head{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.head img{
+    width: 45%;
+}
+.boutton-droite{
+    display: flex;
+    width: 50%;
+    justify-content: flex-end;
+}
+.head-boutton{
+    font-size: 30px;
+}
+.head-boutton:hover{
+    color: #0065fc;
+    
+}
+.B-media{
+display: flex;
+width: 50%;
+}
+.B-media2{
+display:none;
+
+}
+.B-media3{
+    width: 100%;
+    display: flex;
+}
+.head-media3{
+
+    width: 50%;
+    margin-right: 0;
+    margin-left: 0;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid;
+}
+/*2eme partie Localisation*/
+.localisation{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 30px;
+    min-height: 400px;
+}
+.media-butttom-text{
+   display: flex;
+}
+.textbarre-boutton{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 60px;   
+}
+.localisation-H{
+width: 70%;
+height: 200px;
+margin: 20px;
+}
+.localisation-P{
+    margin: 20px;
+}
+.text-boutton{
+    width: 60%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+}
+.black-barre{
+    color: black;
+    width: 10%;
+    height: 85px;
+    border-top-left-radius: 20%;
+    border-bottom-left-radius: 20%;
+    font-size: 30px;
+}
+.boutton-recherche-media{
+    background: #0065fc;
+    width: 10%;
+    height: 85px;
+    color: white;
+    border-radius: 25px;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.boutton-recherche {
+    display: none;
+}
+input{
+    border: 0;
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 30px;
+}
+/*3eme partie barre-boutton*/
+.barre-boutton{
+    display: flex;
+    flex-direction: column;
+    width: 97%;
+    flex-wrap: wrap;
+    margin: 15px;
+    align-items: baseline;
+}
+.Haut-barre{
+    display: flex;
+    width: 100%;
+}
+.boutton2{
+    width: 50%;
+    height: 85px;
+    font-size: 40px;
+    padding: 0;
+    border-left: 0;
+    border-radius: 40px;
+}
+.boutton2-media{
+    color: rgb(30, 5, 255);
+    width: 90px;
+    height: 86px;
+    border-radius: 40px;
+    background: #c4dff8; 
+    text-align: center;
+}
+/*4eme partie Hebergement*/
+    .hebergement{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    .hebergement-gauche{
+        display: grid;
+        width: 100%;
+        background: white;
+    }
+    .hebergement-right{
+        display: grid;
+        width: 100%;
+        border-radius: 20px;
+    }
+    .hebergement-haut{
+        width: 100%;
+        height: 400px;
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+    .hebergement-haut img{
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;
+    }
+
+    .hebergement-bas{
+        width: 100%;
+        height: 400px;
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    }
+    .hebergement-bas img{
+    border-top-left-radius: 43px;
+    border-top-right-radius: 43px;
+    }
+
+    .hebergement-droite{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 98%;
+        height: 300px;
+    }
+
+    .etoile-droite{
+        display: flex;
+        height: 240px;
+        align-items: end;
+        font-size: 30px;
+    }
+    .text-blanc{
+        height: 117px;
+        font-size: 35px;
+        padding-left: 12%;
+    }
+    .text-blanc2{
+        font-size: 35px;
+    }
+    /*5eme partie Activité*/
+    .activité{
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+    .text-activites{
+        width: 95%;
+        height: 117px;
+        font-size: 30px;
+    }
+    .longue{
+        width: 100%;
+        height: auto;
+    }
+    .longue1{
+        display: grid;
+        width: 85%;
+        height: 400px;
+    }
+    .longue2{
+        display: grid;
+        width: 85%;
+        height: 400px;
+    }
+    .longue1 img{
+        width: 100%;
+        height: 50%;
+    }
+    .longue2 img{
+        width: 100%;
+        height: 50%;
+    }
+    .cours1column{
+        display: grid;
+        width: 85%;
+        height: auto;
+    }
+    .cours2column{
+        display: grid;
+        width: 85%;
+        height: auto;
+    }
+    .cours-media{
+        width: 100%;
+        height: 350px;
+        margin-bottom: 20px;
+    }
+    
+    /*dernière partie footer*/
+    .footer{
+        display: flex;
+        flex-direction: column;
+        font-size: 25px;
+        margin-left: 75px;
+    }
+.footer-text{
+    font-size: 35px;
+}
